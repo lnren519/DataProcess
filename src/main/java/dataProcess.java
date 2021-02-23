@@ -253,7 +253,7 @@ public class dataProcess {
         String filePath = "E:\\桌面\\性能测试工具\\data\\";
 
         //   每次执行前csv清空
-        String csvTempFile = "E:\\桌面\\性能测试工具\\data\\result\\temp.csv";
+        String csvTempFile = filePath+"\\result\\temp.csv";
         File csv = new File(csvTempFile);
         csv.delete();
         csv.createNewFile();
